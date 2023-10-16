@@ -1,0 +1,157 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    height: 180px;
+    /* top: 426px;
+    left: 190px; */
+    border-radius: 20px;
+    gap: 10px;
+    box-shadow: 5px 5px 25px 0px #79797926;
+    margin: auto;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 74vw;
+}
+
+.icons {
+    margin-right: 50px;
+}
+
+.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+
+}
+
+.inf {
+    width: 30%;
+    margin-left: 50px
+}
+
+.button {
+    width: 65%;
+    height: 60px;
+    top: 100px;
+    left: 60px;
+    padding: 15px 70px 15px 70px;
+    border-radius: 15px;
+    gap: 10px;
+    background: #FEA300;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 100%;
+    min-height: 40px;
+    min-width: 100px;
+    padding: 0;
+}
+
+.i1 {
+    width: 13.8vw;
+    height: 10.8vw;
+}
+
+.i2 {
+    width: 5.8vw;
+    height: 4.7vw;
+}
+
+.i3 {
+    width: 9.8vw;
+    height: 7.8vw;
+}
+
+.i4 {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    main {
+        display: flex;
+        justify-content: flex-start;
+        width: 90%;
+        height: 36vw;
+        /* top: 426px;
+        left: 190px; */
+        border-radius: 20px;
+        gap: 10px;
+        margin: auto;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #FFF3DD;
+    }
+
+    .icons {
+        margin-right: 5px;
+    }
+
+    .text1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4vw;
+        font-weight: 800;
+        line-height: 8vw;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 0;
+        color: #9F9F9F;
+
+    }
+
+    .text2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4vw;
+        font-weight: 800;
+        line-height: 8vw;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 0;
+        color: 272727;
+
+    }
+
+    .inf {
+        width: 60%;
+        margin-left: 5px
+    }
+
+    .button {
+        width: 0;
+        display: none;
+    }
+
+    .i1 {
+        display: none;
+    }
+
+    .i2 {
+        display: none;
+    }
+
+    .i3 {
+        display: none;
+    }
+
+    .i4 {
+        width: 27vw;
+        height: 38vw;
+        display: block;
+        position: relative;
+    }
+}
